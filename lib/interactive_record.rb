@@ -1,6 +1,6 @@
 require_relative "../config/environment.rb"
 require 'active_support/inflector'
-
+#all child classes inherit from this super class - this is metaaprogramming
 class InteractiveRecord
 
   def self.table_name
